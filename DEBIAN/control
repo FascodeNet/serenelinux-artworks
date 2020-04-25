@@ -1,0 +1,11 @@
+Maintainer: Serene Team <serenelinux.dev@gmail.com>
+Package: serenelinux-artworks
+Depends: 
+Section: artworks
+Version: 1.0.0
+Essential: yes
+Architecture: all
+Description: artworks
+ wallpaper, icons and logos.
+Homepage: https://serenelinux.com/
+Priority: required

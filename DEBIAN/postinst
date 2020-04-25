@@ -1,0 +1,15 @@
+#!/bin/bash
+
+#背景画像
+ln -nfs /usr/share/serene/serene-wallpaper-1.png /etc/alternatives/desktop-background
+
+#背景の設定ファイル（Xfceの設定とは別）
+ln -nfs /usr/share/images/desktop-base/serene.xml /etc/alternatives/desktop-background.xml
+
+#Grubの背景
+cp /usr/share/images/desktop-base/serene-grub-640x480.png /etc/alternatives/desktop-grub
+ln -nfs /etc/alternatives/desktop-grub /etc/grub.d/backgrounds/grub.png
+
+#BodhiBuilderのアイコンの変更
+ln -nfs /usr/share/pixmaps/serene/icon.png /usr/share/icons/bbinstall.png
+ln -nfs /usr/share/pixmaps/serene/icon.png /usr/share/icons/bbinstall_previous.png
